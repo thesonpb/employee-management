@@ -53,13 +53,13 @@ class ViewEmployee extends Component {
             </div>
             <a
               href={`/update-employee/${this.state.id}`}
-              className="btn btn-info"
+              className="btn btn-info mt-2"
             >
               Update
             </a>
             <button
               onClick={() => this.deleteEmployee(this.state.id)}
-              className="btn btn-danger"
+              className="btn btn-danger mt-2"
               style={{ marginLeft: 10 }}
             >
               Delete
